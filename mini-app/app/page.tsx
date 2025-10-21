@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { title, description, url } from '../lib/metadata';
-import RecoSmart from './components/reco-smart';
+import RecoSmart from '../components/reco-smart';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
